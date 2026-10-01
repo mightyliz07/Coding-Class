@@ -1,0 +1,6 @@
+name = "aLiYu muHamMad"
+
+# .title() capitalized the first letter of ech word and lowers the rest
+clean_name = name.title()
+
+print(clean_name)

@@ -1,0 +1,8 @@
+# ask for user input
+text = input("enter a word: ")
+
+# check if the word is the same when flipped backwards
+if text == text[::-1]:
+    print("It is a palindrome")
+else:
+    print("It is not a palindrome")

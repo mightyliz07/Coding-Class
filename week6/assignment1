@@ -1,0 +1,14 @@
+# starting string
+data = "  error: file not found!!! "
+
+# step 1: Remove the extra spaces at the beginning and end of the string.
+clean_data = data.strip()
+
+# step 2:Replace the word "ERROR" with "WARNING".
+clean_data = clean_data.replace("ERROR", "WARNING")
+
+# step 3: Remove all exclamation marks ( ! ).
+clean_data = clean_data.replace("!", "")
+
+# step 4: Prints the final result
+print(clean_data)
